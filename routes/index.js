@@ -30,4 +30,9 @@ router.get('/checklist', function(req, res, next){
 
 });
 
+
+router.get('/table', function(req, res, next){
+  res.render('gradetable');
+})
+
 module.exports = router;
